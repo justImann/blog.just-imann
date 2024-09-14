@@ -1,0 +1,7 @@
+$hamburger-layer-width: 30px !default;
+$hamburger-layer-height: 3px !default;
+$hamburger-layer-spacing: 6px !default;
+$hamburger-layer-color: #000000 !default;
+$hamburger-active-layer-color: $hamburger-layer-color !default;
+
+@import '/node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
