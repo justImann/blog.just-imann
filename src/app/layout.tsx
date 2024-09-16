@@ -28,10 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-4xl mx-auto border `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-4xl mx-auto border px-4`}
       >
         <Navbar />
-        {children}
+        <main className="mt-20">{children}</main>
         <Footer />
       </body>
     </html>

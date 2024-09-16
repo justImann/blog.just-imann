@@ -110,7 +110,7 @@ export const Navbar = ({ className }: { className?: string }) => {
             duration: 0.2,
           }}
           className={cn(
-            'flex items-center justify-between max-w-4xl fixed top-10 px-4 inset-x-0 mx-auto z-[5000]',
+            'flex items-center justify-between max-w-4xl fixed top-2 px-4 inset-x-0 mx-auto z-[5000]',
             className
           )}
         >
